@@ -1,7 +1,5 @@
-name: Test
-uses: jannekem/run-python-script-action@v1.7
-with:
-  script: null
-  fail-on-error: null
-  util: null
+- name: Setup Node
+  uses: actions/setup-node@v1
+  with:
+    node-version: '10.x'
 
